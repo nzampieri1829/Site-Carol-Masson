@@ -2124,3 +2124,75 @@ nav{
 }
 
 }
+
+@media (max-width: 1025px){
+    
+    .nav-button {
+        padding: 18px 12px;
+        border-radius: 40px;
+        background: linear-gradient(135deg, #FF4F8B, #FF8FB7);
+        color: white;
+        font-weight: -400;
+        box-shadow: var(--shadow);
+        transition: .35s;
+        margin-left: -160px;
+    }
+
+    .container hero-content {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-text h1 {
+        font-size: 58px;
+        margin: 10px 50px;
+    }
+
+    .hero-text p {
+    font-size: 19px;
+    color: #666;
+    line-height: 1.9;
+    margin-bottom: 40px;
+    max-width: 580px;
+    margin-left: 173px;
+    }
+}
+
+@media (max-width: 769px){
+    .hero-text p {
+    font-size: 19px;
+    color: #666;
+    line-height: 1.9;
+    margin-bottom: 40px;
+    max-width: 580px;
+    margin-left: 58px;
+    }
+}
+
+@media (max-width: 426px){
+        
+    .hero-text h1 {
+        font-size: 36px;
+        margin: 10px 50px;
+    }
+
+    .hero-text p {
+        font-size: 19px;
+        color: #666;
+        line-height: 1.9;
+        margin-bottom: 40px;
+        max-width: 580px;
+        margin-left: 3px;
+        margin: 21px;
+    }
+}
+
+@media (max-width: 321px){
+    .hero-text h1 {
+        font-size: 36px;
+        margin: 10px 33px;
+    }
+}
